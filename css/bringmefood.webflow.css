@@ -50,11 +50,42 @@ p {
   font-family: Bitter, serif;
   color: #9c9088;
 }
+.button1 {
+  position: static;
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  padding: 5px;
+  float: none;
+  border: 2px solid #cc0700;
+  border-radius: 7px;
+  background-color: #cc0700;
+  background-image: -webkit-linear-gradient(#fc524c, #cc0700);
+  background-image: -o-linear-gradient(#fc524c, #cc0700);
+  background-image: linear-gradient(#fc524c, #cc0700);
+  box-shadow: rgba(255, 255, 255, 0.45) 0px 1px 0px 0px inset;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  font-family: Montserrat, sans-serif;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+.button1:hover {
+  background-image: -webkit-linear-gradient(#f78986, #f01811);
+  background-image: -o-linear-gradient(#f78986, #f01811);
+  background-image: linear-gradient(#f78986, #f01811);
+  box-shadow: rgba(255, 255, 255, 0.45) 0px 1px 0px 0px inset;
+}
+
 .button {
   position: static;
   width: 100%;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
   margin-left: auto;
   padding: 15px;
   float: none;
